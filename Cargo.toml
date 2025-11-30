@@ -8,6 +8,6 @@ license = "Apache-2.0"
 split-debuginfo = "unpacked"
 
 [profile.release]
-strip = "full"
+strip = "symbols"
 lto = true
 codegen-units = 1
