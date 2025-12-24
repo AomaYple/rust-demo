@@ -3,7 +3,7 @@ pub fn hello() {
 }
 
 #[cfg(test)]
-mod test {
+mod tests {
     #[test]
     fn test() {
         super::hello();
